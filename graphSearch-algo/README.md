@@ -10,4 +10,4 @@
   5. Initially, S data structure contains node `s`, U contains all the other nodes and their distances to node `s`. (If the nodes are not connectes to nodes in S, we specifically make them having length $\infty$. )
 
 **Example**
-![alt text](graphSearch-algo/graph.jpg)
+![alt text](https://github.com/Megan0704-1/Stanford-Algorithm/blob/d1d80ae129eede1c27722322d7e40df6ea70e6d9/graphSearch-algo/graph.jpg)
