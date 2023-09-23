@@ -1,0 +1,3 @@
+- candidate.txt: the candidate vertices to judge whether or not it is in the max-weight independet set
+- data.txt: the text file containing the verticies (idx) and weights (value)
+- graph_path.cpp: the implmentation of DP memoization algorithm 
