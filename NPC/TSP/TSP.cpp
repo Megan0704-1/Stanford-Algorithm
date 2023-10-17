@@ -59,7 +59,7 @@ void Algorithm::run_algo(){
     A[1][1] = 0;
 
     for(int j=2; j<=ncities; j++){
-        ans = std::min(ans, dp(j, (1<<ncities)-1)+C[j][1]);
+        ans = std::min(ans, dp(j, (1<<(ncities+1))-1)+C[j][1]);
     }
 }
 
@@ -71,7 +71,7 @@ int Algorithm::dp(int start, int vtx_comb){
     int res = INT8_MAX;
     for(int k=1; k<=ncities; k++){
         if(vtx_comb & (1<<k) && k!=start && k!=1){
-            int new_state = vtx_comb & (~(1<<k));
+            int new_state = vtx_comb & (~(1<<start));
             res = std::min(res, dp(k, new_state));
         }
     }
