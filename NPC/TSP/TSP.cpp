@@ -58,7 +58,8 @@ void Algorithm::compute_len(){
 void Algorithm::run_algo(){
     A[1][1] = 0;
 
-    for(int j=2; j<=ncities; j++){
+    for(int j=1; j<=ncities; j++){
+        cout << "visiting vtx: " << j << "\n";
         ans = std::min(ans, dp(j, (1<<(ncities+1))-1)+C[j][1]);
     }
 }

@@ -33,7 +33,7 @@ public class TSP{
 
     public static double dp(int start, int vtx_comb){
         // this method compute the min dist from source 1 to dest start visiting every vtx in vtx_comb once.
-        if(vtx_comb == ((1<<start) | 3)) return C[1][start];
+        if(vtx_comb == ((1<<start) | 1)) return C[1][start];
         if(A[start][vtx_comb]!=0) return A[start][vtx_comb];
 
         double res = MAX;
