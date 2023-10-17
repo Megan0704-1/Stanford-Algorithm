@@ -27,11 +27,11 @@ There is no polynomial-time know solution for this problem so far. -> TSP is a N
 
 # Command
 - C++
-'''bash
+```bash
 $./a.out ./data.txt
-'''
+```
 - JAVA
-'''bash
+```bash
 $java TSP
 data.txt
-'''
+```
