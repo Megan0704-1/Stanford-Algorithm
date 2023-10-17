@@ -24,3 +24,14 @@ There is no polynomial-time know solution for this problem so far. -> TSP is a N
 
 # Technique 
 -- bitmask: maintaining the invariant
+
+# Command
+- C++
+'''bash
+$./a.out ./data.txt
+'''
+- JAVA
+'''bash
+$java TSP
+data.txt
+'''
