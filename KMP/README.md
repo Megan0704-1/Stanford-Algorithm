@@ -1,3 +1,13 @@
+# To run KMP algorithm
+```bash
+source run-kmp.sh
+
+# in the build directory
+pattern=<user input pattern:string>
+text=<user input text:string>
+./KMP-algo pattern # output the lps array
+./KMP-algo pattern text # output the matching position in text
+```
 
 # KMP Algorithm and `lps` Array Concept
 
