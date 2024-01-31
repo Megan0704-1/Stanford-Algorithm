@@ -3,8 +3,8 @@
 source run-kmp.sh
 
 # in the build directory
-pattern=<user input pattern:string>
-text=<user input text:string>
+pattern=${USER_INPUT_PATTERN}
+text=${USER_INPUT_TEXT}
 ./KMP-algo pattern # output the lps array
 ./KMP-algo pattern text # output the matching position in text
 ```
